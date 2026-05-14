@@ -1,0 +1,19 @@
+Subject: Deterministic replay-verifiable pipeline proof
+
+Hello,
+
+I built Keystone, a deterministic replay-verifiable trust pipeline for proving software execution integrity across multi-stage repository workflows.
+
+The attached proof package demonstrates:
+- identical final proof hashes across repeated executions
+- byte-identical proof output folders
+- replay SAFE verification across all stages
+- deterministic validation on Keystone itself
+- deterministic validation on a clean external repository
+- deterministic validation on a messy real-world repository
+
+Keystone is designed around canonical artifacts, immutable stage manifests, cryptographic proof lineage, fail-closed validation, and replay-verifiable execution history.
+
+This may be relevant to teams working on reproducible infrastructure, software supply-chain integrity, deterministic AI pipelines, trusted CI/CD, or compliance-grade execution verification.
+
+Would your team be open to a short technical review?

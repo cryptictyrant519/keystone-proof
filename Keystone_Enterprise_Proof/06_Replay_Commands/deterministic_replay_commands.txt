@@ -1,0 +1,12 @@
+# Deterministic replay proof command pattern
+
+./keystone scan --repo <repo_path> --run-root <proof_root>
+./keystone scan --repo <repo_path> --run-root <proof_root>
+diff -qr <proof_root>/<run_id>-000001 <proof_root>/<run_id>-000002
+./keystone replay --run-id <run_id>-000001 --run-root <proof_root>
+
+Expected evidence:
+- SAFE scan output
+- identical final proof hashes
+- no output from diff -qr
+- replay SAFE with all stages verified

@@ -1,0 +1,62 @@
+[
+  {
+    "path": "01_Technical_Brief/keystone_enterprise_technical_brief.pdf",
+    "sha256": "6efdfd774c2f2b266a08a89473098373888f3d2b342bda92e801b8350f8ab415",
+    "bytes": 720890
+  },
+  {
+    "path": "02_Architecture/keystone_deterministic_trust_pipeline.png",
+    "sha256": "714399eb70639ce2753aafcb5d243eadd0db86c5b00f5ba8a988a2260943b16f",
+    "bytes": 63001
+  },
+  {
+    "path": "03_Demo/keystone_deterministic_demo.mp4",
+    "sha256": "eec9be27a8391739f0ad5287b09d3d18f793fa171c639cc3a352f17621bb6eed",
+    "bytes": 30493618
+  },
+  {
+    "path": "04_Proof_Artifacts/01_keystone_self_verification_identical_hashes.png",
+    "sha256": "eae3f22cec92c9c1c0598a4f1820963ad6258cd313de4c77e66b618fab2706ff",
+    "bytes": 202245
+  },
+  {
+    "path": "04_Proof_Artifacts/02_external_repository_identical_hashes.png",
+    "sha256": "14178852fca255e72f310296d3a008a4112e13ff257d0e1b0cf49a9b0f5a2790",
+    "bytes": 197507
+  },
+  {
+    "path": "04_Proof_Artifacts/03_external_repository_replay_verification.png",
+    "sha256": "966ed5d038a9531c0180020dec3abf43ef8182d0add8c451097916821460996a",
+    "bytes": 185526
+  },
+  {
+    "path": "04_Proof_Artifacts/04_messy_repository_replay_verification.png",
+    "sha256": "5b490c6e096cea6e72900b5d63a3117ba2291719181153433c6beea98d9b3638",
+    "bytes": 161536
+  },
+  {
+    "path": "05_Outreach/short_technical_intro.txt",
+    "sha256": "f691be7500dfb0bb51cce16898a3150930aeb56cc0d3c45e964c10de01e1f0cd",
+    "bytes": 229
+  },
+  {
+    "path": "05_Outreach/technical_outreach_template.txt",
+    "sha256": "b09d6611d50eea02ecb3e902353be8fd8cee7cd43e1f47e097784a1f9ffd528a",
+    "bytes": 977
+  },
+  {
+    "path": "06_Replay_Commands/deterministic_replay_commands.txt",
+    "sha256": "7444335884fabb7bbff6299bca3e093dfa18bc874a15a741fc57e95e1e200e87",
+    "bytes": 433
+  },
+  {
+    "path": "06_Replay_Commands/validation_summary.txt",
+    "sha256": "78a7e662a1730d4ac6a26ebc4ad76805f287976471dbe84e4af9f3c8f504af15",
+    "bytes": 423
+  },
+  {
+    "path": "README.txt",
+    "sha256": "cc3032d5e98805c01ef635357872f674d45e6d0a7811ad0c3a206167ff59c2f8",
+    "bytes": 1475
+  }
+]

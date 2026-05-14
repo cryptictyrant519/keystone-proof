@@ -1,0 +1,1 @@
+Keystone is a deterministic replay-verifiable trust pipeline. It proves repeated repository executions produce identical cryptographic proof outputs, byte-identical proof folders, and replay-safe verification across every stage.
