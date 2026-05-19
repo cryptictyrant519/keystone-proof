@@ -1,0 +1,18 @@
+# Never publish local/private runtime evidence
+pipeline_runs/
+data/
+quarantine/
+
+# Never publish internal Keystone source/control-plane docs
+internal/
+cmd/
+schemas/
+fixtures/
+BUILD_PLAN.txt
+INVARIANTS.txt
+TRUTH.txt
+ARCHITECTURE.txt
+README.txt
+
+# Never publish generated archives until manually re-audited
+*.zip
