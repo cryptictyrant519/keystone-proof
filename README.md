@@ -12,6 +12,38 @@ Keystone demonstrates a proof model for complex execution pipelines where output
 
 The public package in this repository contains proof artifacts only. It does not contain Keystone's private source code or internal implementation.
 
+## Repository Scope
+
+This repository is Keystone's public proof surface.
+
+It contains:
+
+- proof artifacts
+- verification scripts
+- public architecture documentation
+- governance documents
+- replay demonstration material
+- validation summaries
+
+It does not contain:
+
+- Keystone's private production source code
+- proprietary execution engine internals
+- recovery engine internals
+- sync or merge internals
+- canonicalization or hashing internals
+- private test harnesses
+- private design notes
+
+This repository is intended for:
+
+- platform engineering reviewers
+- DevSecOps teams
+- software supply-chain reviewers
+- AI infrastructure teams
+- governance and audit reviewers
+- technical evaluators who need to inspect Keystone's public proof surface
+
 ## Public Governance Documents
 
 Recommended review order:
