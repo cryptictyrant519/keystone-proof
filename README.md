@@ -12,6 +12,16 @@ Keystone demonstrates a proof model for complex execution pipelines where output
 
 The public package in this repository contains proof artifacts only. It does not contain Keystone's private source code or internal implementation.
 
+## Public Governance Documents
+
+Recommended review order:
+
+1. `WHY_KEYSTONE.md` — why Keystone exists and why execution claims are not enough
+2. `TRUTH.md` — what Keystone treats as execution truth
+3. `INVARIANTS.md` — rules that must remain true for execution records to be trusted
+4. `ARCHITECTURE.md` — public architecture shape and trust pipeline
+5. `AUDIT_STATUS.md` — current verification posture and public/private boundary
+
 ## Proof Package
 
 See:
