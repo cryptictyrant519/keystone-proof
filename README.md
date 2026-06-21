@@ -73,16 +73,17 @@ Contents include:
 
 ## Scope
 
-Keystone is positioned as deterministic execution proof infrastructure for:
+Keystone is a deterministic execution vault that stores immutable evidence of every state transition and guarantees replay-verifiable truth, provable recovery, and cross-machine identical state.
 
-- CI/CD verification
-- DevSecOps workflows
-- software supply-chain integrity
-- build and release systems
-- multi-tool execution orchestration
-- AI-assisted development pipelines
+This repository publishes Keystone's public proof surface, including governance documentation, architecture documentation, audit and verification status, the enterprise proof package, replay-verification artifacts, verification scripts, and reproducibility evidence.
 
-AI-assisted development is one use case, not the full identity of Keystone.
+The purpose of this repository is to enable independent evaluation of Keystone's verifiability, governance model, and proof guarantees. Keystone is intentionally structured so that its guarantees can be independently validated without access to the underlying execution engine.
+
+This repository allows reviewers to inspect Keystone's architectural guarantees, review system invariants and governance commitments, validate proof artifacts and verification outputs, reproduce verification procedures, and independently confirm evidence integrity and replay-verifiable truth.
+
+This repository does not include Keystone's private execution engine, orchestration and scheduling internals, deterministic pipeline implementation, vault internals, vault schemas, vault configurations, proprietary state-transition systems, proprietary recovery systems, proprietary evidence-preservation systems, production deployment infrastructure, or operational vault product code.
+
+The underlying deterministic execution vault, its operational implementation, and its proprietary execution technologies remain private. This public release focuses on the reproducibility, verification, and evidence-preservation model that makes Keystone a trustable primitive for agents, CI/CD systems, enterprise automation, and regulated environments.
 
 ## Verification Principle
 
