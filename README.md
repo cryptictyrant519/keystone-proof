@@ -1,14 +1,16 @@
 # Keystone
 
-Deterministic execution and replay-verifiable proof infrastructure.
+Deterministic execution vault for replay-verifiable truth, provable recovery, and cross-machine identical state.
 
 ## Core Proof
 
 same input → same execution path → same canonical artifact chain → same proof hash
 
-## What Keystone Demonstrates
+## What Keystone Is
 
-Keystone demonstrates a proof model for complex execution pipelines where outputs must be reproducible, replay-verifiable, and tied to canonical artifact integrity.
+Keystone is a deterministic execution vault that converts execution into immutable evidence.
+
+Its purpose is to preserve execution truth through deterministic state transitions, replay-verifiable proof, provable recovery, and canonical evidence records.
 
 The public package in this repository contains proof artifacts only. It does not contain Keystone's private source code or internal implementation.
 

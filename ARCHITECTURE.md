@@ -1,6 +1,6 @@
 # Keystone Architecture
 
-Keystone is deterministic orchestration and replay-verifiable execution proof infrastructure.
+Keystone is a deterministic execution vault that stores immutable evidence of every state transition and enables replay-verifiable truth, provable recovery, and cross-machine identical state.
 
 It wraps complex execution workflows in a proof layer that can show whether execution evidence is reproducible, byte-identical, hash-locked, and independently replay-verifiable.
 

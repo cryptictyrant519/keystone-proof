@@ -128,7 +128,7 @@ This makes Keystone useful for:
 - DevSecOps workflows
 - software supply-chain integrity
 - reproducible builds
-- AI-assisted development pipelines
+- enterprise automation workflows
 - regulated execution environments
 - zero-trust automation
 - compliance-grade evidence review

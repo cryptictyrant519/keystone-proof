@@ -1,12 +1,12 @@
 # Keystone Enterprise Summary
 
-## Deterministic Execution and Replay-Verifiable Proof Infrastructure
+## Deterministic Execution Vault
 
 Keystone provides execution truth, not execution telemetry.
 
 It establishes a verifiable record of what occurred inside complex execution pipelines by shifting trust away from logs and toward canonical artifacts and deterministic replay.
 
-Modern delivery systems involve chained tools, generated artifacts, ephemeral environments, distributed orchestration, and machine-assisted transformations. In these systems, logs describe what a pipeline claims occurred. Keystone verifies what actually occurred.
+Modern delivery systems involve chained tools, generated artifacts, ephemeral environments, distributed orchestration, and automated transformations. In these systems, logs describe what a pipeline claims occurred. Keystone verifies what actually occurred.
 
 ## Core Verification Model
 
@@ -42,7 +42,7 @@ Keystone is designed for environments where reproducibility, auditability, and e
 - software supply-chain integrity
 - build and release validation
 - multi-tool orchestration verification
-- AI-assisted execution pipelines
+- enterprise automation workflows
 - regulated or compliance-bound environments
 - zero-trust execution workflows
 
