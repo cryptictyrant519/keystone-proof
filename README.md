@@ -1,94 +1,117 @@
 # Keystone
 
-Deterministic execution vault for replay-verifiable truth, provable recovery, and cross-machine identical state.
+Keystone is an execution evidence verification system.
 
-## Core Proof
+It transforms execution into preserved evidence that can be independently verified.
 
-same input → same execution path → same canonical artifact chain → same proof hash
+Rather than asking reviewers to trust logs, dashboards, screenshots, or operator assertions, Keystone preserves deterministic evidence that can be replayed, examined, and verified independently.
 
-## What Keystone Is
+Determinism, replay, recovery, canonical evidence, and fail-closed verification are the mechanisms that make independent trust possible.
 
-Keystone is a deterministic execution vault that converts execution into immutable evidence.
+> **The question Keystone answers is simple:**
+>
+> **Can this execution claim be verified from preserved evidence?**
 
-Its purpose is to preserve execution truth through deterministic state transitions, replay-verifiable proof, provable recovery, and canonical evidence records.
+---
 
-The public package in this repository contains proof artifacts only. It does not contain Keystone's private source code or internal implementation.
+# The Problem
 
-## Repository Scope
+Modern software produces execution claims.
 
-This repository is Keystone's public proof surface.
+Very few systems preserve enough evidence for those claims to be independently verified.
+
+Logs can be modified.
+
+Screenshots can be misleading.
+
+Dashboards summarize rather than prove.
+
+Operational assertions require trust.
+
+Keystone is designed to replace trust with independently verifiable evidence.
+
+---
+
+# What Keystone Does
+
+Keystone is designed to:
+
+- preserve canonical execution evidence;
+- produce deterministic execution records;
+- enable deterministic replay;
+- support provable recovery;
+- preserve immutable historical evidence;
+- fail closed when evidence cannot be verified;
+- allow independent reviewers to determine whether an execution claim is trustworthy.
+
+Trust is therefore the result of successful verification rather than an assumption.
+
+---
+
+# Public Repository Scope
+
+This repository is Keystone's public engineering specification and proof surface.
 
 It contains:
 
-- proof artifacts
-- verification scripts
-- public architecture documentation
-- governance documents
-- replay demonstration material
-- validation summaries
+- foundational principles;
+- architectural invariants;
+- truth model;
+- technical architecture specification;
+- audit standard;
+- public proof documentation;
+- verification material;
+- enterprise proof package;
+- reproducibility evidence.
 
-It does not contain:
+It does **not** contain:
 
-- Keystone's private production source code
-- proprietary execution engine internals
-- recovery engine internals
-- sync or merge internals
-- canonicalization or hashing internals
-- private test harnesses
-- private design notes
+- Keystone's private execution engine;
+- proprietary implementation details;
+- internal orchestration systems;
+- production deployment infrastructure;
+- proprietary recovery implementation;
+- proprietary synchronization implementation.
 
-This repository is intended for:
+The public repository exists so Keystone's architectural guarantees and verification model can be independently evaluated without exposing proprietary implementation.
 
-- platform engineering reviewers
-- DevSecOps teams
-- software supply-chain reviewers
-- AI infrastructure teams
-- governance and audit reviewers
-- technical evaluators who need to inspect Keystone's public proof surface
+---
 
-## Public Governance Documents
+# Recommended Reading Order
 
-Recommended review order:
+For the complete public specification, read in the following order:
 
-1. `WHY_KEYSTONE.md` — why Keystone exists and why execution claims are not enough
-2. `TRUTH.md` — what Keystone treats as execution truth
-3. `INVARIANTS.md` — rules that must remain true for execution records to be trusted
-4. `ARCHITECTURE.md` — public architecture shape and trust pipeline
-5. `AUDIT_STATUS.md` — current verification posture and public/private boundary
+1. `WHY_KEYSTONE.md`
+2. `FOUNDATIONAL_PRINCIPLES.md`
+3. `INVARIANTS.md`
+4. `TRUTH.md`
+5. `TECHNICAL_ARCHITECTURE.md`
+6. `ARCHITECTURE.md`
+7. `AUDIT_STANDARD.md`
+8. `PROOF_PACKAGE.md`
+9. `AUDIT_STATUS.md`
+10. `ENTERPRISE_SUMMARY.md`
 
-## Proof Package
+Each document builds upon the previous one.
 
-See:
+---
 
-`Keystone_Enterprise_Proof/`
+# Enterprise Proof Package
 
-Contents include:
+The `Keystone_Enterprise_Proof/` directory contains the public proof package used to demonstrate Keystone's verification model.
 
-- technical brief
-- architecture diagram
-- deterministic demo video
-- replay verification artifacts
-- independent repository verification
-- Keystone self-verification
-- SHA256 manifest
-- replay commands
+It includes proof artifacts, architecture material, replay demonstrations, verification artifacts, reproducibility evidence, and supporting documentation intended for independent technical review.
 
-## Scope
+---
 
-Keystone is a deterministic execution vault that stores immutable evidence of every state transition and guarantees replay-verifiable truth, provable recovery, and cross-machine identical state.
+# Verification Philosophy
 
-This repository publishes Keystone's public proof surface, including governance documentation, architecture documentation, audit and verification status, the enterprise proof package, replay-verification artifacts, verification scripts, and reproducibility evidence.
+Keystone does not attempt to make execution trustworthy.
 
-The purpose of this repository is to enable independent evaluation of Keystone's verifiability, governance model, and proof guarantees. Keystone is intentionally structured so that its guarantees can be independently validated without access to the underlying execution engine.
+Keystone preserves evidence so that trust can be produced through independent verification.
 
-This repository allows reviewers to inspect Keystone's architectural guarantees, review system invariants and governance commitments, validate proof artifacts and verification outputs, reproduce verification procedures, and independently confirm evidence integrity and replay-verifiable truth.
+Evidence precedes trust.
 
-This repository does not include Keystone's private execution engine, orchestration and scheduling internals, deterministic pipeline implementation, vault internals, vault schemas, vault configurations, proprietary state-transition systems, proprietary recovery systems, proprietary evidence-preservation systems, production deployment infrastructure, or operational vault product code.
+Verification produces trust.
 
-The underlying deterministic execution vault, its operational implementation, and its proprietary execution technologies remain private. This public release focuses on the reproducibility, verification, and evidence-preservation model that makes Keystone a trustable primitive for agents, CI/CD systems, enterprise automation, and regulated environments.
-
-## Verification Principle
-
-Keystone is designed around artifact truth, not trust in logs.
-
-The proof model centers on deterministic execution, canonicalized artifacts, replay verification, fail-closed behavior, and proof-hash agreement.
+Trust is never assumed.
