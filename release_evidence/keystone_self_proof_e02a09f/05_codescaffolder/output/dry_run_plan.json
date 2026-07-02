@@ -1,0 +1,1 @@
+{"binder_output_hash":"0000000000000000000000000000000000000000000000000000000000000000","dry_run_schema_version":"v1.0","expected_manifest_shape":"scaffold_manifest.v1","expected_output_kind":"staging_preview","input_envelope_hash":"60a5fea9c44428582634ae05fbc1f8afbaeff025bc20e518e00a70a38e541cc7","ordered_directories":["src"],"ordered_files":["src/a.py"]}

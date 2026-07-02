@@ -1,0 +1,28 @@
+{
+  "rulepack_id": "rulepack.phase1.minimal",
+  "version": "1.0.0",
+  "name": "Phase 1 Minimal Rulepack",
+  "rules": [
+    {
+      "rule_id": "GENERIC.LAYER.FORBIDDEN.APP_TO_DATA",
+      "language": "GENERIC",
+      "domain": "LAYER",
+      "type": "FORBIDDEN",
+      "severity": "error",
+      "description": "App layer must not import data layer directly.",
+      "matcher": {
+        "kind": "forbidden_import",
+        "from_boundary": "boundary.layer.app",
+        "to_boundary": "boundary.layer.data"
+      },
+      "evidence_requirements": [
+        "source_node",
+        "target_node",
+        "import_edge",
+        "boundary_crossing"
+      ],
+      "metadata": {}
+    }
+  ],
+  "metadata": {}
+}

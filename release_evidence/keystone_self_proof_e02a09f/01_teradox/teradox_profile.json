@@ -1,0 +1,24 @@
+{
+  "env": {
+    "entries": {}
+  },
+  "host": {
+    "arch": "",
+    "os": {
+      "name": "",
+      "version": ""
+    }
+  },
+  "lockfiles": {
+    "entries": {}
+  },
+  "profile_hash": "158a250ab6f9cc4b0c196d563a547cfeb42aafbd79917956e4fa10000ab599c4",
+  "repo": {
+    "git_commit": "e02a09f70be5c2fc96dffe6755c03e6fb76c5a3d",
+    "git_dirty": true
+  },
+  "toolchains": {
+    "entries": {}
+  },
+  "version": "v1"
+}
