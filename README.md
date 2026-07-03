@@ -98,9 +98,28 @@ Each document builds upon the previous one.
 
 # Enterprise Proof Package
 
-The `Keystone_Enterprise_Proof/` directory contains the public proof package used to demonstrate Keystone's verification model.
+The `Keystone_Enterprise_Proof/` directory contains the public enterprise review package used to demonstrate Keystone's verification model.
 
 It includes proof artifacts, architecture material, replay demonstrations, verification artifacts, reproducibility evidence, and supporting documentation intended for independent technical review.
+
+The public proof anchor for this package is `proof/proof-hash.txt`, which is the SHA256 hash of `proof/manifest.sha256`.
+
+---
+
+# Current Release Evidence
+
+The `release_evidence/` directory contains the current public release proof package.
+
+Each release evidence package includes:
+
+- proof envelope;
+- stage manifests;
+- recorded stage inputs;
+- recorded stage outputs;
+- Keystone verdict;
+- deterministic proof lineage.
+
+See `release_evidence/README.md` for the current release package, proof hash, verification results, and reproduction commands.
 
 ---
 
