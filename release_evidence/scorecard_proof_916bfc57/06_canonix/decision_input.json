@@ -1,0 +1,1 @@
+{"action":"keystone_pipeline_verify","actor":"keystone","metadata":{"previous_chain_hash":"sha256:fb56382b5bfc0e45a84f545e6624d34cd4f4b94c520e477562bf247de00ff48e","repo_path":"/home/tyrant/scorecard","stage_id":"06_canonix"},"schema_version":"1","target":"pipeline_chain"}

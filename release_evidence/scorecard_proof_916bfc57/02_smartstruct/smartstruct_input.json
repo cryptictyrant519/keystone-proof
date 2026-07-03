@@ -1,0 +1,1 @@
+{"compat":{"smartstruct":"smartstruct.intake.v1"},"repo_path":"/home/tyrant/scorecard","request":{"code":"print('keystone smartstruct adapter probe')\n","project_name":"keystone-smartstruct-adapter"},"schema_version":"keystone.smartstruct.adapter.input.v1","stage_id":"02_smartstruct"}
