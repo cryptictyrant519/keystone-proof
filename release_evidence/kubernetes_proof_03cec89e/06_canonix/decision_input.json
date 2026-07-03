@@ -1,0 +1,1 @@
+{"action":"keystone_pipeline_verify","actor":"keystone","metadata":{"previous_chain_hash":"sha256:129b45ae9ca0bb36059e86e5d20cf4777027717ebb6f9ab3e7f5b87d01edde54","repo_path":"/home/tyrant/kubernetes","stage_id":"06_canonix"},"schema_version":"1","target":"pipeline_chain"}
