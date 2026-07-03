@@ -1,0 +1,41 @@
+{
+  "contract_id": "contract.minimal.py",
+  "version": "1.0.0",
+  "repository": {
+    "name": "minimal_repo_py",
+    "root": "fixtures/minimal_repo_py"
+  },
+  "languages": [
+    "python"
+  ],
+  "boundaries": [
+    {
+      "boundary_id": "boundary.layer.app",
+      "boundary_type": "layer",
+      "name": "app",
+      "scope": [
+        "app/**"
+      ],
+      "metadata": {}
+    },
+    {
+      "boundary_id": "boundary.layer.data",
+      "boundary_type": "layer",
+      "name": "data",
+      "scope": [
+        "data/**"
+      ],
+      "metadata": {}
+    }
+  ],
+  "services": [
+    "app",
+    "data"
+  ],
+  "enabled_rulepacks": [
+    "rulepack.phase1.minimal"
+  ],
+  "evaluation_mode": "strict",
+  "output_mode": "both",
+  "metadata": {}
+}

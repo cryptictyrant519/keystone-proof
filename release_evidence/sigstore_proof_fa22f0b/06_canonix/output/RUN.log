@@ -1,0 +1,18 @@
+{
+  "deterministic": {
+    "events": [
+      {
+        "kind": "input_validated",
+        "message": "rulepack + decision_input validated"
+      },
+      {
+        "kind": "policy_evaluated",
+        "message": "decision=allow"
+      },
+      {
+        "kind": "artifact_written",
+        "message": "decision_profile + canonical + sha256 written"
+      }
+    ]
+  }
+}

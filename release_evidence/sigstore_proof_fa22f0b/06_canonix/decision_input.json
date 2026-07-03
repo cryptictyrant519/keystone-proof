@@ -1,0 +1,1 @@
+{"action":"keystone_pipeline_verify","actor":"keystone","metadata":{"previous_chain_hash":"sha256:f0748c1a3fc8aa03260f446de8ddeb6e6725977cea4ca6dc6087158fff240291","repo_path":"/home/tyrant/sigstore","stage_id":"06_canonix"},"schema_version":"1","target":"pipeline_chain"}
