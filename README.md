@@ -14,6 +14,47 @@ Determinism, replay, recovery, canonical evidence, and fail-closed verification 
 
 ---
 
+# Start Here
+
+Choose the review path that matches your goal.
+
+## Quick Review — 5 Minutes
+
+1. Read this README.
+2. Inspect `release_evidence/README.md`.
+3. Verify the Keystone self-proof.
+4. Review `Keystone_Enterprise_Proof/README.txt`.
+
+## Technical Review — 30 to 60 Minutes
+
+1. `WHY_KEYSTONE.md`
+2. `FOUNDATIONAL_PRINCIPLES.md`
+3. `INVARIANTS.md`
+4. `TRUTH.md`
+5. `TECHNICAL_ARCHITECTURE.md`
+6. `ARCHITECTURE.md`
+7. `AUDIT_STANDARD.md`
+8. `release_evidence/README.md`
+9. `negative_proofs/`
+
+## Independent Verification
+
+See `release_evidence/README.md` for current proof packages and exact verification commands.
+
+## Negative Proofs
+
+The `negative_proofs/` directory demonstrates fail-closed behavior for intentionally invalid proof material:
+
+- missing Keystone verdict;
+- tampered proof envelope;
+- tampered stage manifest.
+
+## Enterprise Review Package
+
+The `Keystone_Enterprise_Proof/` directory contains the enterprise-oriented review package, including demo material, technical brief, architecture image, proof artifacts, replay commands, and manifest hashes.
+
+---
+
 # The Problem
 
 Modern software produces execution claims.
@@ -77,7 +118,7 @@ The public repository exists so Keystone's architectural guarantees and verifica
 
 ---
 
-# Recommended Reading Order
+# Complete Specification Reading Order
 
 For the complete public specification, read in the following order:
 
