@@ -1,0 +1,97 @@
+KEYSTONE PUBLIC PROOF VERIFICATION
+
+Verification date:
+2026-08-03
+
+PUBLIC MANIFEST VERIFICATION
+
+Command:
+bash verify/verify-manifest.sh
+
+Observed result:
+PASS
+
+Observed evidence:
+- all published enterprise-package artifact hashes matched
+- expected proof hash anchor: 974c0de7e50ab71a22e5f035a938b33374084d173dcc5dbd7925a4402148774f
+- actual proof hash anchor: 974c0de7e50ab71a22e5f035a938b33374084d173dcc5dbd7925a4402148774f
+- verifier reported PASS: manifest and proof hash verified
+
+RELEASE EVIDENCE VERIFICATION
+
+Keystone self-proof:
+- package: release_evidence/keystone_self_proof_e02a09f
+- result: SAFE
+- verified stages: 7
+- final proof: sha256:e2fc2ef66767172b09f13fef7c3dce5747bfd297cd0db622b891f9c2c175bedd
+
+Sigstore:
+- package: release_evidence/sigstore_proof_fa22f0b
+- result: SAFE
+- verified stages: 7
+- final proof: sha256:8540cf5dadacf8123b0848a6071693f04e8feb01048cca8a4928f4b68997f422
+
+OpenSSF Scorecard:
+- package: release_evidence/scorecard_proof_916bfc57
+- result: SAFE
+- verified stages: 7
+- final proof: sha256:184e491c66bcffebf92890d3d906001f85dfe5095d539475fbe6169b08e4ca4c
+
+Kubernetes:
+- package: release_evidence/kubernetes_proof_03cec89e
+- result: SAFE
+- verified stages: 7
+- final proof: sha256:b9206b576d996171653333b500a42507812fd49e1eeea836b69f429a1c0f9ea0
+
+LEGACY EXTERNAL PROOF VERIFICATION
+
+Sigstore:
+- package: external_proofs/sigstore_proof_cfd781df3fd03186
+- result: SAFE
+- verified stages: 7
+- final proof: sha256:8540cf5dadacf8123b0848a6071693f04e8feb01048cca8a4928f4b68997f422
+
+OpenSSF Scorecard:
+- package: external_proofs/scorecard_proof_9ad561d838321315
+- result: SAFE
+- verified stages: 7
+- final proof: sha256:184e491c66bcffebf92890d3d906001f85dfe5095d539475fbe6169b08e4ca4c
+
+NEGATIVE PROOF VERIFICATION
+
+Missing Keystone verdict:
+- observed state: FAIL_CLOSED
+- failure: violation:run_verdict_missing
+
+Tampered proof envelope:
+- observed result: BLOCKED
+- observed state: FAIL_CLOSED
+- failure: final proof does not match verdict final chain hash
+- failed surface: proof_envelope
+
+Tampered stage manifest:
+- observed result: BLOCKED
+- observed state: FAIL_CLOSED
+- failure: proof artifact hash mismatch: 01_teradox/stage_manifest.json
+- failed surface: stage_manifest_ref
+
+VERIFICATION BOUNDARY
+
+The public manifest script verifies published enterprise-package file integrity and the public proof hash anchor.
+
+The release and external proof packages were verified using the private Keystone verifier from /home/swaa1/Keystone.
+
+The private verifier is not included in this public repository.
+
+A SAFE result establishes consistency of the supplied proof package under the active verifier contract. It does not establish security, correctness, compliance, authorization, or facts outside the declared evidence boundary.
+
+CURRENT STATUS
+
+Release proof packages:
+PASS
+
+Negative fail-closed demonstrations:
+PASS
+
+Public enterprise-package manifest chain:
+PASS

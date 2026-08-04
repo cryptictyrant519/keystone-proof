@@ -70,7 +70,7 @@ Sources of ambient nondeterminism—including clocks, floating-point behavior, l
 
 The architecture exists to preserve Keystone's invariants.
 
-The numbered invariants defined in `INVARIANTS.txt` are the governing law of the system.
+The numbered invariants defined in `INVARIANTS.md` are the governing law of the system.
 
 Every architectural component exists because it preserves one or more of those invariants.
 

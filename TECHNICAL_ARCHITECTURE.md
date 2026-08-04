@@ -6,7 +6,7 @@ This specification defines Keystone's technical architecture.
 
 It explains how Keystone preserves canonical evidence, protects deterministic truth, supports recovery, and enables independent verification.
 
-This document is subordinate to `INVARIANTS.txt`, `TRUTH.txt`, `ARCHITECTURE.txt`, and `BUILD_PLAN.txt`.
+This document is subordinate to `INVARIANTS.md`, `TRUTH.md`, `ARCHITECTURE.md`.
 
 ---
 
@@ -100,13 +100,13 @@ Code is not authority.
 
 ## 5. Foundational Relationship
 
-The philosophical foundation of Keystone is defined in `specification/FOUNDATIONAL_PRINCIPLES.md`.
+The philosophical foundation of Keystone is defined in `FOUNDATIONAL_PRINCIPLES.md`.
 
-The numbered invariants are defined in `INVARIANTS.txt`.
+The numbered invariants are defined in `INVARIANTS.md`.
 
-The truth model is defined in `TRUTH.txt`.
+The truth model is defined in `TRUTH.md`.
 
-The root architecture is defined in `ARCHITECTURE.txt`.
+The root architecture is defined in `ARCHITECTURE.md`.
 
 This specification exposes those authority layers in public technical form.
 
@@ -114,7 +114,7 @@ This specification exposes those authority layers in public technical form.
 
 ## 6. Architectural Invariants
 
-Keystone's architecture preserves the numbered invariants defined in `INVARIANTS.txt`.
+Keystone's architecture preserves the numbered invariants defined in `INVARIANTS.md`.
 
 The most load-bearing architectural invariants are:
 

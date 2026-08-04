@@ -25,4 +25,4 @@ Core Demonstrated Claim
 Keystone produced deterministic, replay-verifiable, byte-identical proof outputs across Keystone itself, a clean external repository, and a messy real-world repository.
 
 Positioning
-Keystone is a deterministic execution vault that preserves immutable execution evidence and enables replay-verifiable truth, provable recovery, canonical artifact verification, and fail-closed execution governance.
+Keystone is a deterministic execution vault that preserves immutable execution evidence and enables replay-verifiable truth, verification of preserved recovery evidence, canonical artifact verification, and fail-closed execution governance.

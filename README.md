@@ -80,7 +80,7 @@ Keystone is designed to:
 - preserve canonical execution evidence;
 - produce deterministic execution records;
 - enable deterministic replay;
-- support provable recovery;
+- support verification of preserved recovery evidence;
 - preserve immutable historical evidence;
 - fail closed when evidence cannot be verified;
 - allow independent reviewers to determine whether an execution claim is trustworthy.
@@ -132,6 +132,9 @@ For the complete public specification, read in the following order:
 8. `PROOF_PACKAGE.md`
 9. `AUDIT_STATUS.md`
 10. `ENTERPRISE_SUMMARY.md`
+11. `THREAT_MODEL.md`
+12. `WHAT_KEYSTONE_DOES_NOT_GUARANTEE.md`
+13. `PUBLIC_PROOF_VERIFICATION.txt`
 
 Each document builds upon the previous one.
 
