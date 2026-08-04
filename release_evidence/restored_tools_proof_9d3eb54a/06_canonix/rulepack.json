@@ -1,0 +1,1 @@
+{"rules":[{"decision":"allow","id":"allow_verify","message":"approved","when":{"field":"action","op":"eq","value":"keystone_pipeline_verify"}}],"schema_version":"1"}

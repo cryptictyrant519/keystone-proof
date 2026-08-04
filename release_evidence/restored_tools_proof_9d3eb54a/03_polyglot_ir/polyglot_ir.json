@@ -1,0 +1,1 @@
+{"decls":[{"body":[{"kind":"Return","value":{"kind":"Literal","value":1}}],"kind":"FunctionDecl","name":"hi","params":[]}],"entry":null,"imports":[],"kind":"Program","metadata":{},"schema":"pir/v0.2"}

@@ -1,0 +1,1 @@
+{"action":"keystone_pipeline_verify","actor":"keystone","metadata":{"previous_chain_hash":"sha256:7cb8136f1133c3b1cadbef69f925f49c7fbfa33069b697eb7ed58fd89b423962","repo_path":"/home/swaa1/keystone-proof","stage_id":"06_canonix"},"schema_version":"1","target":"pipeline_chain"}
