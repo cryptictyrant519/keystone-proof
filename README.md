@@ -14,6 +14,12 @@ Determinism, replay, recovery, canonical evidence, and fail-closed verification 
 
 ---
 
+## Video Proof
+
+Watch Keystone execute a fresh seven-stage verification run, independently verify and replay the proof, reject a deliberately tampered copy `FAIL_CLOSED`, and verify the untouched evidence remains `SAFE`.
+
+https://github.com/user-attachments/assets/58fdd282-1e7c-44ed-b8b7-134f65487b04
+
 # Start Here
 
 Choose the review path that matches your goal.
