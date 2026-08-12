@@ -1,5 +1,9 @@
 # Keystone
 
+## ▶ Watch the 47-second video proof
+
+[Open the embedded Keystone video proof](#video-proof)
+
 Keystone is an execution evidence verification system.
 
 It transforms execution into preserved evidence that can be independently verified.
