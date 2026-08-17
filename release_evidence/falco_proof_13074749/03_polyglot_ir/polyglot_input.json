@@ -1,0 +1,1 @@
+{"compat":{"polyglot_ir":"pir/v0.2"},"repo_path":"/home/swaa1/falco","schema_version":"keystone.polyglot_ir.adapter.input.v1","source":{"language":"python","path":"polyglot_probe.py"},"stage_id":"03_polyglot_ir"}

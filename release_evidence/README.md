@@ -130,6 +130,29 @@ Observed results:
 
 `SAFE` doctor, `SAFE` pipeline run, `SAFE` independent verify-proof, `SAFE` copied package verify-proof, `7` verified stages.
 
+
+## Falco
+
+Proof directory:
+
+`release_evidence/falco_proof_13074749`
+
+Source commit:
+
+`13074749`
+
+Run ID:
+
+`63372de631f6de56-000001`
+
+Final proof:
+
+`sha256:8bee504181f99f34724af3dd0423e974174392273ba673ea809f28851ce15cd5`
+
+Observed results:
+
+`SAFE` doctor, `SAFE` pipeline run, `SAFE` independent verify-proof, `SAFE` replay, `SAFE` copied package verify-proof, `7` verified stages.
+
 ---
 
 # Status

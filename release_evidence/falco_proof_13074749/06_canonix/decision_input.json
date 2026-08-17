@@ -1,0 +1,1 @@
+{"action":"keystone_pipeline_verify","actor":"keystone","metadata":{"previous_chain_hash":"sha256:0fc5c22c8ea14b2cde5c2294d97975bb4c629f17f4ef287f328ca3538b5ab1b2","repo_path":"/home/swaa1/falco","stage_id":"06_canonix"},"schema_version":"1","target":"pipeline_chain"}
