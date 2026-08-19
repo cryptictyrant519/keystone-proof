@@ -1,0 +1,33 @@
+KEYSTONE PUBLIC EVIDENCE LICENSE
+
+Copyright © 2026 Robert Lazaravitch. All rights reserved.
+
+1. PURPOSE
+This repository is published for inspection, evaluation, verification, audit, research, and demonstration of Keystone's public specification, evidence model, and preserved proof artifacts.
+
+2. PERMITTED USE
+You may access, download, inspect, reproduce locally, and use the materials in this repository solely for non-commercial evaluation, verification, audit, research, and testing of the published Keystone evidence and claims.
+
+3. RESTRICTIONS
+Except with prior written permission from Robert Lazaravitch, you may not sell, sublicense, commercially redistribute, commercially exploit, rebrand, incorporate into a competing commercial product or service, or represent modified materials as authentic Keystone evidence.
+
+4. MODIFIED COPIES
+Modified copies must not be represented as original, authentic, verified, or official Keystone evidence. Keystone names, proof identifiers, verification results, and provenance claims must not be used in a misleading manner.
+
+5. NO RIGHTS TO PRIVATE KEYSTONE IMPLEMENTATION
+This license applies only to materials published in the keystone-proof repository. It grants no rights to Keystone's private execution engine, proprietary source code, internal orchestration, recovery implementation, synchronization implementation, infrastructure, trade secrets, or other non-public technology.
+
+6. NO TRADEMARK OR PATENT RIGHTS
+No rights to any Keystone name, logo, trademark, service mark, patent, or patent application are granted.
+
+7. COMMERCIAL OR OTHER USE
+Any commercial use, redistribution right, integration right, derivative commercial use, or other permission outside the permitted uses above requires prior written authorization from Robert Lazaravitch.
+
+8. NO WARRANTY
+THE MATERIALS ARE PROVIDED AS IS, WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT.
+
+9. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ROBERT LAZARAVITCH SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR OTHER DAMAGES ARISING FROM USE OF OR RELIANCE ON THESE MATERIALS.
+
+10. RESERVATION OF RIGHTS
+All rights not expressly granted are reserved by Robert Lazaravitch.
