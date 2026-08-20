@@ -44,6 +44,10 @@ Replay:
 
 `SAFE`
 
+Fresh-machine preserved-package replay:
+
+`SAFE` on GitHub-hosted Ubuntu, Windows, and macOS runners in Actions run `32286821142`.
+
 Copied package verify-proof:
 
 `SAFE`
