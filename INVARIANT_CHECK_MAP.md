@@ -39,14 +39,14 @@ A listed check is not a claim that the underlying tools, environment, or target 
 | Replace Scorecard final proof | `negative_proofs/scorecard_tampered_proof_envelope` | Reject final-chain mismatch | `BLOCKED`; `FAIL_CLOSED`; failed surface `proof_envelope` |
 | Replace Falco final proof | `negative_proofs/falco_tampered_proof_envelope` | Reject final-chain mismatch while the untouched proof remains valid | `BLOCKED`; `FAIL_CLOSED`; untouched Falco package remains `SAFE` |
 
-## Mutation Coverage Still Required
+## Remaining Public Hardening
 
-The next public negative-test matrix should cover:
+The completed mutation coverage is published in `MUTATION_MATRIX.md`.
 
-1. Remove each required artifact class not already covered by preserved missing-artifact tests.
-2. Add an undeclared-input mutation for the explicit evidence-boundary case.
-3. Replay under an incompatible environment.
-4. Extend untouched-reference `SAFE` confirmation to each future disposable mutation.
+Remaining public hardening:
+
+1. Replay under an incompatible environment.
+2. Extend untouched-reference `SAFE` confirmation to each future disposable mutation.
 
 ## Interpretation Boundary
 
