@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/78f0ec19-b19a-45d5-bc4c-32ebbe2715dc
 
 # Start Here
 
-Choose the review path that matches your goal.
+Choose the review path that matches your goal. For the exact reviewer workflow, expected outputs, and limitations, see `REVIEWER_PATH.md`.
 
 ## Quick Review — 5 Minutes
 
